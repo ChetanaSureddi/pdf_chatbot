@@ -6,23 +6,23 @@ An intelligent assistant web app built with Flask, LangChain, and Groq to answer
 
 ## Features
 
--  Upload PDFs and ask questions contextually.
--  Registered and Guest users supported.
--  Sessions saved for logged-in users.
--  Email/password login with forgot password.
--  Edit profile and change password options.
--  LangChain + HuggingFace embeddings + Groq API.
--  Voice input and stylish, responsive UI.
+- Upload PDFs and ask questions contextually.
+- Registered and Guest users supported.
+- Sessions saved for logged-in users.
+- Email/password login with forgot password.
+- Edit profile and change password options.
+- LangChain + HuggingFace embeddings + Groq API.
+- Voice input and stylish, responsive UI.
 
 ---
 
-##  Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/doc-assistant.git
-cd doc-assistant
+git clone https://github.com/ChetanaSureddi/pdf_chatbot.git
+cd pdf_chatbot
 ```
 
 ### 2. Create and activate virtual environment
@@ -50,7 +50,7 @@ MAIL_PASSWORD=your_app_password
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
 rag_webapp/
@@ -84,7 +84,7 @@ rag_webapp/
 
 ---
 
-##  Email Setup
+## Email Setup
 
 Enable 2FA for your Google account and generate an **App Password**.
 
@@ -92,7 +92,7 @@ Use that in `.env` as `MAIL_PASSWORD`.
 
 ---
 
-##  Running the App
+## Running the App
 
 ```bash
 python main.py
@@ -102,7 +102,7 @@ Visit: `http://127.0.0.1:5000`
 
 ---
 
-##  Security Tips
+## Security Tips
 
 - Never commit `.env` file.
 - Use hashed passwords (Flask-Login + Werkzeug).
@@ -112,6 +112,5 @@ Visit: `http://127.0.0.1:5000`
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).  
-© 2025 Surya Batchu. You are free to use, modify, and distribute this project with proper credit.
-
+This project is licensed under the [MIT License](LICENSE).
+© 2025 Sai Chetana Priya Sureddi. You are free to use, modify, and distribute this project with proper credit.
