@@ -1,4 +1,4 @@
-# DOC Assistant - RAG Assistant (Retrieval-Augmented Generation)
+# PDF Chatbot - RAG Assistant (Retrieval-Augmented Generation)
 
 An intelligent assistant web app built with Flask, LangChain, and Groq to answer questions from uploaded PDF documents using Large Language Models (LLMs). Supports guest and user modes, session chat history, profile editing, and secure login with password recovery.
 
